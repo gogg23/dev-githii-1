@@ -1,5 +1,4 @@
 import styles from './ProjectsStyles.module.css';
-import movpic from '../../assets/movpic.jpg';
 import gym1 from '../../assets/gym1.png';
 import hotel from '../../assets/hotel.jpg';
 import eggplant from '../../assets/eggplant-1.png';
@@ -45,7 +44,7 @@ function Projects() {
         <ProjectCard
           src={movpic}
           link='https://react-movie-appz.netlify.app/'
-          h3='movies'
+          h3='movie'
           p='react movie app'
         />
       </div>
