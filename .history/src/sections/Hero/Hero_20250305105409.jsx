@@ -39,7 +39,7 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href='https://x.com/devgithii' target='_blank'>
+          <a href='https://twitter.com/' target='_blank'>
             <img src={twitterIcon} alt='Twitter icon' />
           </a>
           <a href='https://github.com/dashboard' target='_blank'>
@@ -51,8 +51,10 @@ function Hero() {
         </span>
         <p>
           With a background in tech writing, I bring creativity to frontend web
-          development,crafting responsive, user-friendly websites & apps using
-          HTML, CSS, JavaScript, Tailwind, and React.
+          development,
+          <br />
+          crafting responsive, user-friendly websites & apps using HTML, CSS,
+          JavaScript, Tailwind, and React.
         </p>
         <a href={Resume} download>
           <button className='hover'>Resume</button>
