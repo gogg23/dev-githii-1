@@ -43,7 +43,7 @@ function Projects() {
           p='Js cocktail app'
         />
         <ProjectCard
-          src={movpic}
+          src={movies}
           link='https://react-movie-appz.netlify.app/'
           h3='movies'
           p='react movie app'
