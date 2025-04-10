@@ -48,6 +48,12 @@ function Projects() {
           h3='movies'
           p='react movie app'
         />
+        <ProjectCard
+          src={dashpic}
+          link='https://react-dash-board1.netlify.app/'
+          h3='dashboard'
+          p='react dashboard'
+        />
       </div>
     </section>
   );
