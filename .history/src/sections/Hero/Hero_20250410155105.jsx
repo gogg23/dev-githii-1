@@ -8,8 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import moviepic from '../../assets/moviepic.png';
-import Resume from '../../assets/Resume.pdf';
+import Resume from '../../assets/assets/Redesigned_Resume_with_MongoDB.pdf';
 import { useTheme } from '../../common/ThemeContext';
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -40,22 +39,27 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href='https://twitter.com/' target='_blank'>
+          <a href='https://x.com/devgithii' target='_blank'>
             <img src={twitterIcon} alt='Twitter icon' />
           </a>
-          <a href='https://github.com/' target='_blank'>
+          <a
+            href='https://github.com/gogg23?tab=overview&from=2024-12-01&to=2024-12-31'
+            target='_blank'
+          >
             <img src={githubIcon} alt='Github icon' />
           </a>
-          <a href='https://linkedin.com/' target='_blank'>
+          <a
+            href='https://www.linkedin.com/in/githinji-godfrey-312a7b270/'
+            target='_blank'
+          >
             <img src={linkedinIcon} alt='LinkedIn icon' />
           </a>
         </span>
         <p>
           With a background in tech writing, I bring creativity to frontend web
-          development,
-          <br />
-          crafting responsive, user-friendly websites & apps using HTML, CSS,
-          JavaScript, Tailwind, and React.
+          development, crafting responsive, user-friendly websites & apps using
+          HTML, CSS, JavaScript, Tailwind, and React. Currently expanding my
+          skills in DevOps and Node.js.
         </p>
         <a href={Resume} download>
           <button className='hover'>Resume</button>

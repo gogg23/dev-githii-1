@@ -5,6 +5,7 @@ import hotel from '../../assets/hotel.jpg';
 import eggplant from '../../assets/eggplant-1.png';
 import login from '../../assets/dark-login.jpg';
 import cocktail1 from '../../assets/cocktail1.png';
+import dashpic from '../../assets/analytics.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {

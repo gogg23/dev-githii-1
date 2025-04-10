@@ -1,9 +1,11 @@
 import styles from './ProjectsStyles.module.css';
+import movpic from '../../assets/movpic.jpg';
 import gym1 from '../../assets/gym1.png';
 import hotel from '../../assets/hotel.jpg';
 import eggplant from '../../assets/eggplant-1.png';
 import login from '../../assets/dark-login.jpg';
 import cocktail1 from '../../assets/cocktail1.png';
+import dashpic from '../../assets/analytics.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -44,8 +46,14 @@ function Projects() {
         <ProjectCard
           src={movpic}
           link='https://react-movie-appz.netlify.app/'
-          h3='movie'
+          h3='movies'
           p='react movie app'
+        />
+        <ProjectCard
+          src={dashpic}
+          link='https://react-dash-board1.netlify.app/'
+          h3='dashboard'
+          p='react dashboard'
         />
       </div>
     </section>
